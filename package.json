@@ -3,6 +3,9 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Node.js HTTP Web server for the Tuiter application",
+  "engines": {
+    "npm": "6.x"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
