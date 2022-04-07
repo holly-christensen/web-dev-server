@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const TUITS_API = 'https://web-dev-server-hlsp22.herokuapp.com/api/tuits';
+// const TUITS_API = 'https://web-dev-server-hlsp22.herokuapp.com/api/tuits';
+const API_BASE = process.env.REACT_APP_API_BASE;
+const TUITS_API = `${API_BASE}/tuits`;
 
 export const createTuit = async (tuit) => {
     console.log('in service: '+tuit)
