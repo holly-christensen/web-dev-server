@@ -1,1 +1,1 @@
-web: web-dev-server-hlsp22/server/server.js
+web: server/server.js
