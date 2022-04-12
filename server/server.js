@@ -1,9 +1,12 @@
-import express from "express";
+// import express from "express";
+const express = require('express');
+const app = express();
 import cors from "cors";
 import helloController from "./controllers/hello-controller.js";
 import userController   from "./controllers/user-controller.js";
 import tuitController from "./controllers/tuits-controller.js";
-const app = express()
+// const app = express()
+// mongoose.connect('mongodb://localhost:27017/cs4550-sp22');
 
 app.use(cors());
 app.get('/hello', (req, res) => {res.send('Hello World!')})
