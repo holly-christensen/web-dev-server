@@ -1,4 +1,4 @@
-const express = require('express');
+import express from "express";
 const app = express();
 import cors from "cors";
 import helloController from "./controllers/hello-controller.js";
