@@ -1,4 +1,4 @@
-import posts from '../tuits.js';
+import posts from '../data/tuits.js';
 
 let tuits = JSON.parse(JSON.stringify(posts));
 

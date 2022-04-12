@@ -1,4 +1,4 @@
-import people from './users/users.js';
+import people from '../data/users.js';
 let users = people;
 
 
