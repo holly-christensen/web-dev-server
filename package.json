@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "server",
   "version": "1.0.0",
   "description": "Node.js HTTP Web server for the Tuiter application",
@@ -29,6 +28,7 @@
   "dependencies": {
     "axios": "^0.26.1",
     "cors": "^2.8.5",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10"
   }
 }

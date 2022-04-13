@@ -1,0 +1,184 @@
+[
+  {
+    "postedBy": {
+      "username": "Alice"
+    },
+    "stats": {
+      "comments": 123,
+      "retuits": 234,
+      "likes": 346,
+      "dislikes": 0
+    },
+    "_id": "6256ca73cc3a47512130c541",
+    "topic": "Space",
+    "liked": true,
+    "verified": false,
+    "handle": "spacex",
+    "title": "",
+    "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "attachments": {
+      "image": "images/starship.jpeg"
+    },
+    "time": "last month",
+    "logoImage": "./../images/spacex-logo.jpeg",
+    "avatarImage": "./../images/spacex-logo.jpeg",
+    "tuits": "120K"
+  },
+  {
+    "postedBy": {
+      "username": "Bob"
+    },
+    "stats": {
+      "comments": 123,
+      "retuits": 234,
+      "likes": 345,
+      "dislikes": 0
+    },
+    "_id": "6256ca73cc3a47512130c542",
+    "topic": "Space",
+    "liked": false,
+    "verified": false,
+    "handle": "spacex",
+    "title": "",
+    "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "attachments": {
+      "image": "images/starship.jpeg"
+    },
+    "time": "last month",
+    "logoImage": "./../images/spacex-logo.jpeg",
+    "avatarImage": "./../images/spacex-logo.jpeg",
+    "tuits": "120K"
+  },
+  {
+    "postedBy": {
+      "username": "Charlie"
+    },
+    "stats": {
+      "comments": 123,
+      "retuits": 234,
+      "likes": 345,
+      "dislikes": 0
+    },
+    "_id": "6256ca73cc3a47512130c543",
+    "topic": "Web Development",
+    "liked": false,
+    "verified": false,
+    "handle": "jQuery",
+    "title": "jQuery",
+    "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "time": "last week",
+    "logoImage": "./../images/jquery-logo.png",
+    "avatarImage": "./../images/jquery-logo.png",
+    "tuits": "122K"
+  },
+  {
+    "postedBy": {
+      "username": "Dan"
+    },
+    "stats": {
+      "retuits": 0,
+      "likes": 0,
+      "comments": 0,
+      "dislikes": 0
+    },
+    "_id": "6256ca73cc3a47512130c544",
+    "topic": null,
+    "liked": false,
+    "verified": false,
+    "handle": "userhandle",
+    "logoImage": "./../images/default-profile.jpeg",
+    "avatarImage": "./../images/default-profile.jpeg",
+    "time": "now",
+    "title": null,
+    "tuit": "what is popping",
+    "__v": 0
+  },
+  {
+    "postedBy": {
+      "username": "User Name"
+    },
+    "stats": {
+      "retuits": 0,
+      "likes": 0,
+      "comments": 0,
+      "dislikes": 0
+    },
+    "_id": "6256fc5dade1b85ff716f1f9",
+    "topic": null,
+    "liked": false,
+    "verified": false,
+    "handle": "userhandle",
+    "logoImage": "images/default-profile.jpeg",
+    "avatarImage": "images/default-profile.jpeg",
+    "time": "now",
+    "title": null,
+    "tuit": "Howdy",
+    "__v": 0
+  },
+  {
+    "postedBy": {
+      "username": "User Name"
+    },
+    "stats": {
+      "retuits": 0,
+      "likes": 0,
+      "comments": 0,
+      "dislikes": 0
+    },
+    "_id": "6256fcd1ade1b85ff716f1fd",
+    "topic": null,
+    "liked": false,
+    "verified": false,
+    "handle": "userhandle",
+    "logoImage": "images/default-profile.jpeg",
+    "avatarImage": "images/default-profile.jpeg",
+    "time": "now",
+    "title": null,
+    "tuit": "new handle!",
+    "__v": 0
+  },
+  {
+    "postedBy": {
+      "username": "User Name"
+    },
+    "stats": {
+      "retuits": 0,
+      "likes": 0,
+      "comments": 0,
+      "dislikes": 0
+    },
+    "_id": "6256fe62fb191c4b50884efd",
+    "topic": null,
+    "liked": false,
+    "verified": false,
+    "handle": "userhandle",
+    "logoImage": "images/default-profile.jpeg",
+    "avatarImage": "images/default-profile.jpeg",
+    "time": "now",
+    "title": null,
+    "tuit": "New tuitttt",
+    "__v": 0
+  },
+  {
+    "postedBy": {
+      "username": "User Name"
+    },
+    "stats": {
+      "retuits": 0,
+      "likes": 0,
+      "comments": 0,
+      "dislikes": 0
+    },
+    "_id": "6256fe88fb191c4b50884f01",
+    "topic": null,
+    "liked": false,
+    "verified": false,
+    "handle": "userhandle",
+    "logoImage": "images/default-profile.jpeg",
+    "avatarImage": "images/default-profile.jpeg",
+    "time": "now",
+    "title": null,
+    "tuit": "Newwwww",
+    "__v": 0
+  }
+]

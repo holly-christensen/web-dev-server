@@ -7,15 +7,10 @@ const findUserById = (id) => {
     return usersModel.findById(id)
 }
 const findUserByEmail = (email) => {
-    // return usersModel.findOne({email: email})
     return usersModel.findOne({email})
 }
 const findUserByCredentials = (email, password) => {
     return usersModel.findOne({email, password})
-    // return usersModel.findOne({
-    //   email: email,
-    //   password: password
-    // })
 }
 const createUser = (user) => {
     return usersModel.create(user)
