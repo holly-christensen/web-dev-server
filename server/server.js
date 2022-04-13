@@ -9,13 +9,13 @@ const app = express();
 // const DB_PASSWORD = process.env.DB_PASSWORD
 // mongoose.connect(`mongodb+srv://${DB_USERNAME}:${DB_PASSWORD}@cluster0.m8jeh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`);
 const CONNECTION_STRING = `mongodb+srv://hollylovejoy:BEREAVE-prepay-hart@webdev-cluster.vug6c.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
-
-mongoose.connect('mongodb://localhost:27017/webdev', {
-    dbName: 'webdev',
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-}, err => err ? console.log(err) :
-    console.log('Connected to webdev database'));
+mongoose.connect(CONNECTION_STRING);
+// mongoose.connect('mongodb://localhost:27017/webdev', {
+//     dbName: 'webdev',
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true
+// }, err => err ? console.log(err) :
+//     console.log('Connected to webdev database'));
 
 // import usersController   from "./controllers/users-controller.js";
 // import tuitsController from "./controllers/tuits-controller.js";
